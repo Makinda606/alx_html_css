@@ -37,3 +37,10 @@ header, footer {
   text-align: center;
 }
 
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #85db9f; 
+}
+
