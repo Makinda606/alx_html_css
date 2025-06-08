@@ -1,0 +1,39 @@
+/* Make body vertical layout */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main: horizontal layout */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Article = 2/3 of space */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Aside = 1/3 of space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #d9eaf7;
+}
+
+/* Header and footer styling */
+header, footer {
+  background-color: #444;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
