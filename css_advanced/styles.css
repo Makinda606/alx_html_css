@@ -97,3 +97,69 @@ nav a {
   object-fit: cover;
   margin-bottom: 10px;
 }
+/* Header Background */
+.hero {
+  background: url('https://i.ibb.co/4RhxTb9/smilegirl.jpg') no-repeat center center/cover; /* Update path */
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 60px;
+  text-align: center;
+  position: relative;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Hero Text */
+.hero-text {
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+/* Button */
+.btn-register {
+  padding: 15px 40px;
+  background-color: #c271ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #a84ee9;
+}
