@@ -351,3 +351,43 @@ nav a {
 .register-btn:hover {
   background-color: #800080;
 }
+.faq-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  color: #071629; /* Adjust to match Figma heading */
+  margin-bottom: 60px;
+}
+
+.faq-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.faq-column {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.faq-item {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.faq-item h3 {
+  font-size: 1.25rem;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #4f4f4f;
+  line-height: 1.6;
+}
